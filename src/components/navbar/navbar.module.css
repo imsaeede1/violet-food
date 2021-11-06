@@ -20,20 +20,28 @@
 .nav {
   background-color: rgb(255, 255, 255);
   display: flex;
-  padding: 20px;
+  padding: 20px 50px;
   justify-content: space-between;
   flex-direction: row-reverse;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   font-family: "isans";
 }
 .navText {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "byekan";
+  background-color: rgb(253, 92, 181);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  /* padding: 0px 11px 0px 11px; */
+  color: white;
+  border: 3px solid white;
 }
 .navTitle {
-  font-size: 16px;
-  margin-left: 4px;
-  margin-top: 2px;
+  font-size: 14px;
+  margin-left: 6px;
+  margin-top: 5px;
+  color: rgb(143, 143, 143);
 }
 .flexProducts {
   display: flex;
@@ -48,6 +56,22 @@
   border-radius: 8px;
   margin-left: 10px;
 }
+
 .textTitle {
   color: rgb(253, 46, 160);
+}
+
+.btnStyle {
+  background-color: #ebedf0;
+  color: rgb(136, 136, 136);
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ebedf0;
+  text-align: right;
+  width: 250px;
+}
+.btnStyle:focus {
+  border: 1px solid rgb(131, 131, 131);
+  outline: none;
+  color: rgb(70, 70, 70);
 }

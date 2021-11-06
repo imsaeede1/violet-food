@@ -11,7 +11,7 @@ const initialState = [
     price: 99000,
     id: 1,
     quantity: 1,
-    img: "../../../images/pitza.jpg",
+    img: "../../../images/pitza.png",
   },
   {
     title: "دونر گوشت",
@@ -20,7 +20,7 @@ const initialState = [
     price: 76000,
     id: 2,
     quantity: 2,
-    img: "../../../images/doner.jpg",
+    img: "../../../images/doner.png",
   },
   {
     title: "سالاد سزار",
@@ -29,7 +29,7 @@ const initialState = [
     price: 89000,
     id: 3,
     quantity: 6,
-    img: "../../../images/sezar.jpg",
+    img: "../../../images/sezar.png",
   },
   {
     title: "وگاس فرایز",
@@ -38,7 +38,7 @@ const initialState = [
     price: 69000,
     id: 4,
     quantity: 3,
-    img: "../../../images/friz.jpg",
+    img: "../../../images/friz.png",
   },
   {
     title: "پیتزا میلانو",
@@ -46,16 +46,16 @@ const initialState = [
     price: 99000,
     id: 5,
     quantity: 1,
-    img: "../../../images/pitza.jpg",
+    img: "../../../images/pitza-steak.png",
   },
   {
-    title: "دونر گوشت",
+    title: "هات داگ کلاسیک",
     description:
       "کاهو رومانا، گوجه چری، نان کروتان، ریحان، فیله گریل، پنیر پارمژان، سس سزار",
     price: 78000,
     id: 6,
     quantity: 2,
-    img: "../../../images/doner.jpg",
+    img: "../../../images/classic-hotdog.png",
   },
   {
     title: "سالاد سزار",
@@ -64,7 +64,7 @@ const initialState = [
     price: 89000,
     id: 7,
     quantity: 4,
-    img: "../../../images/sezar.jpg",
+    img: "../../../images/sezar.png",
   },
   {
     title: "وگاس فرایز",
@@ -73,7 +73,7 @@ const initialState = [
     price: 69000,
     id: 8,
     quantity: 3,
-    img: "../../../images/friz.jpg",
+    img: "../../../images/friz.png",
   },
 ];
 

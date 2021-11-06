@@ -1,4 +1,5 @@
 import styles from "./navbar.module.css";
+import { AiOutlineSearch } from "react-icons/ai";
 import "../../fonts/B-NAZANIN.TTF";
 import "../../fonts/BYekan.eot";
 import "../../fonts/BYekan.ttf";
@@ -12,13 +13,19 @@ const Navbar = ({ totalProducts }) => {
   totalProducts = products.filter((p) => p.quantity > 0).length;
   return (
     <div className={styles.nav}>
+      <div className={styles.flexProducts}>
+        <div className={styles.navText}> {totalProducts} </div>
+        <h5 className={styles.navTitle}>: انواع فست فود ها </h5>
+      </div>
       <div>
         <h3 className={styles.textTitle}>ویولت فود</h3>
       </div>
-      <div className={styles.flexProducts}>
-        <h5 className={styles.navText}> {totalProducts} : </h5>
-        <h5 className={styles.navTitle}>تعداد محصولات </h5>
-      </div>
+
+      <input
+        type="text"
+        placeholder="جستوجو در ویولت فود"
+        className={styles.btnStyle}
+      />
     </div>
   );
 };
