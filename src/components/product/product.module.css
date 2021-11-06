@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "B-NAZANIN";
+  src: local("B-NAZANIN"), url(../../fonts/B-NAZANIN.TTF) format("truetype");
+}
+@font-face {
+  font-family: "byekan";
+  src: url(../../fonts/BYekan.ttf);
+  src: url(../../fonts/BYekan.eot) format("woff"),
+    url("../../fonts/BYekan.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "isans";
+  src: url("../../fonts/IRANSANSExpanded.eot?#") format("eot"),
+    url("../../fonts/IRANSANSExpanded.woff2") format("woff2"),
+    url("../../fonts/IRANSANSExpanded.woff") format("woff");
+  font-weight: normal;
+}
+
+.container {
+  padding: 12px;
+  margin: 20px 10px 0 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid #e7e7e7;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+  font-size: 12px;
+  font-family: isans, "isans", tahoma;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.container:hover {
+  box-shadow: rgba(26, 17, 17, 0.2) 0px 2px 12px;
+}
+.containerList {
+  margin: 0 120px;
+  display: grid;
+  grid-template-columns: 550px 500px;
+}
+.flexMain {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 500px;
+}
+.flexTitle {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.flexprice {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-top: 5px;
+}
+.textDescription {
+  font-size: 10px;
+  color: #5e5e5e;
+}
+.textprice {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  color: #fc0909;
+}
+.containerImg {
+  width: 70px;
+  height: 72px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.priceText {
+  margin: 3.5px 5px 0 0;
+  font-size: 10px;
+}
+.btnDelete {
+  color: #b6b6b6;
+  cursor: pointer;
+}
+.btnDelete:hover {
+  color: #2c2c2c;
+  cursor: pointer;
+}
+.pric {
+  font-family: "byekan";
+  font-size: 14px;
+}
+.btn {
+  cursor: pointer;
+  font-size: 19px;
+  color: rgb(255, 73, 173);
+}
+.quant {
+  font-family: "byekan";
+  font-size: 14.4px;
+  margin: 0 12px;
+}
+.remove {
+  background-color: white;
+  border: none;
+  color: #ff0101;
+  font-size: 14px;
+  margin-top: 3px;
+}
+.flexBtn {
+  display: flex;
+  height: 10px;
+}

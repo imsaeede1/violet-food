@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "B-Nazanin";
+  src: local("B-Nazanin"), url(../../fonts/B-NAZANIN.TTF) format("truetype");
+}
+@font-face {
+  font-family: "byekan";
+  src: url(../../fonts/BYekan.ttf);
+  src: url(../../fonts/BYekan.eot) format("woff"),
+    url("../../fonts/BYekan.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "isans";
+  src: url("../../fonts/IRANSANSExpanded.eot?#") format("eot"),
+    url("../../fonts/IRANSANSExpanded.woff2") format("woff2"),
+    url("../../fonts/IRANSANSExpanded.woff") format("woff");
+  font-weight: normal;
+}
+.nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.navText {
+  font-size: 20px;
+  font-family: "byekan";
+}
+.navTitle {
+  font-size: 16px;
+  margin-left: 4px;
+  margin-top: 2px;
+  font-family: "isans";
+}
