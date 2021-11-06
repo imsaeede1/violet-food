@@ -21,7 +21,9 @@ const Product = ({ product, onDelete, onIncrement, onDecrease }) => {
       <div className={styles.flexMain}>
         <div className={styles.flexTitle}>
           <div>
-            <p className={styles.flexTitle}>{product.title}</p>
+            <p className={styles.flexTitle}>
+              <p className={styles.mainTitle}>{product.title}</p>
+            </p>
             <p className={styles.textDescription}>{product.description}</p>
           </div>
           <div className={styles.btnDelete} onClick={onDelete}>

@@ -21,8 +21,10 @@
   background-color: rgb(255, 255, 255);
   display: flex;
   padding: 20px;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  font-family: "isans";
 }
 .navText {
   font-size: 20px;
@@ -32,5 +34,20 @@
   font-size: 16px;
   margin-left: 4px;
   margin-top: 2px;
-  font-family: "isans";
+}
+.flexProducts {
+  display: flex;
+}
+.flexImg {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.containerImg {
+  width: 60px;
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.textTitle {
+  color: rgb(253, 46, 160);
 }

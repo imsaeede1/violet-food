@@ -12,8 +12,13 @@ const Navbar = ({ totalProducts }) => {
   totalProducts = products.filter((p) => p.quantity > 0).length;
   return (
     <div className={styles.nav}>
-      <h5 className={styles.navText}> {totalProducts} : </h5>
-      <h5 className={styles.navTitle}>تعداد محصولات </h5>
+      <div>
+        <h3 className={styles.textTitle}>ویولت فود</h3>
+      </div>
+      <div className={styles.flexProducts}>
+        <h5 className={styles.navText}> {totalProducts} : </h5>
+        <h5 className={styles.navTitle}>تعداد محصولات </h5>
+      </div>
     </div>
   );
 };
