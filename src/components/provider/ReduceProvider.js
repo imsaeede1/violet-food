@@ -8,7 +8,7 @@ const initialState = [
   {
     title: "پیتزا میلانو",
     description: "سس گوجه دست ساز، فیله مرغ، فلفل دلمه، زیتون، پنیر ترکیبی",
-    price: 99000,
+    price: 89000,
     id: 1,
     quantity: 1,
     img: "../../../images/pitza.png",
@@ -105,6 +105,19 @@ const reducer = (state, action) => {
     case "deleteHandler": {
       const filterProduct = state.filter((p) => p.id !== action.id);
       return filterProduct;
+    }
+
+    case "search": {
+      if (action.event.target.value === "") {
+        return initialState;
+      } else {
+        const updatedProducts = initialState.filter((p) =>
+          p.title
+            .toLowerCase()
+            .includes(action.event.target.value.toLowerCase())
+        );
+        return updatedProducts;
+      }
     }
 
     default:
